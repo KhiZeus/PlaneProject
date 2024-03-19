@@ -5,40 +5,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90b27619-0f57-4048-8cee-dfe2b03eba31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PlaneProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/Example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/Plane/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/Plane/plane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/Plane/plane_mass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/atmosphere/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/atmosphere/atmosphere.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/constant/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/engine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/engine/engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/fuselage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/wing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmosphere/atmosphere.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/engine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuselage/fuselage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plane_Design_Package/fuselage/fuselage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wing/wing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plane_Design_Package/wing/wing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2de7PHMiyUgmuLncDfQ7IuArZEH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Example (1).executor": "Run",
+    "Python.Example.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.atmosphere.executor": "Run",
+    "Python.constants.executor": "Run",
+    "Python.engine.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.plane_mass.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/ETS/MGA802/Atmospheric_balloon-package/main.py"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MGA802\PlaneProject\Plane_Design_Package" />
+      <recent name="C:\MGA802\PlaneProject\Plane_Design_Package\constant" />
+      <recent name="C:\MGA802\PlaneProject" />
+      <recent name="C:\MGA802\Plane_Design_Package" />
+      <recent name="C:\MGA802\PlaneProject\PlaneDesign\constant" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Example (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PlaneProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Plane_Design_Package" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Plane_Design_Package/Example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PlaneProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\MGA802\PlaneProject\Plane_Design_Package\Example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,6 +121,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Example" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PlaneProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\MGA802\PlaneProject\PlaneDesign\Example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Example (1)" />
+        <item itemvalue="Python.Example (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -83,7 +172,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
+          <url>file://$PROJECT_DIR$/Plane_Design_Package/Example.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
