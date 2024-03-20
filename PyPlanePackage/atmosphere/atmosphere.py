@@ -1,5 +1,6 @@
 import math
-from Plane_Design_Package.constants import Constants
+from PyPlanePackage.constants import Constants
+
 
 class Atmosphere:
     """Class representing atmospheric properties at a given altitude."""
@@ -12,7 +13,6 @@ class Atmosphere:
             altitude (float): Altitude in meters. Default is 0.
 
         Attributes:
-            q (float): Gravitational constant.
             altitude (float): Altitude in meters.
             temperature_K (float): Temperature in Kelvin.
             temperature_C (float): Temperature in Celsius.
@@ -26,6 +26,7 @@ class Atmosphere:
         self.pressure = self.compute_pressure()  # Pa
         self.density = self.compute_density()  # kg/m3
         self.sound_speed = self.compute_sound_speed()
+        self.viscosity = self.compute_air_viscosity()
         self.gravity = self.compute_gravity()
 
     def compute_temperature(self):
@@ -50,12 +51,12 @@ class Atmosphere:
         """
         if self.altitude < Constants.altitude_junction:
             pressure = Constants.pressure_zero * math.pow((self.temperature_K / Constants.temperature_zero),
-                                                        (-Constants.gravity_zero / (
-                                                                Constants.temperature_variation_altitudem *
-                                                                Constants.R_air) ))
+                                                          (-Constants.gravity_zero / (
+                                                                  Constants.temperature_variation_altitudem *
+                                                                  Constants.R_air)))
         else:
             pressure_junction = Constants.pressure_zero * math.pow((
-                    Constants.temperature_junction / Constants.temperature_zero),(-Constants.gravity_zero / (
+                    Constants.temperature_junction / Constants.temperature_zero), (-Constants.gravity_zero / (
                     Constants.temperature_variation_altitudem * Constants.R_air)))
             pressure = pressure_junction * math.exp(-Constants.gravity_zero / (Constants.R_air * self.temperature_K) * (
                     self.altitude - Constants.altitude_junction))
@@ -69,31 +70,48 @@ class Atmosphere:
             float: Density in kg/m^3.
         """
         if self.altitude < Constants.altitude_junction:
-            density = Constants.density_zero * math.pow((self.temperature_K / Constants.temperature_zero),(-Constants.gravity_zero / (Constants.temperature_variation_altitudem * Constants.R_air) - 1))
+            density = Constants.density_zero * math.pow((self.temperature_K / Constants.temperature_zero), (
+                    -Constants.gravity_zero / (Constants.temperature_variation_altitudem * Constants.R_air) - 1))
         else:
-            density_junction = Constants.density_zero *  math.pow((
-                    Constants.temperature_junction / Constants.temperature_zero),(-Constants.gravity_zero / (
+            density_junction = Constants.density_zero * math.pow((
+                    Constants.temperature_junction / Constants.temperature_zero), (-Constants.gravity_zero / (
                     Constants.temperature_variation_altitudem * Constants.R_air) - 1))
             density = density_junction * math.exp(-Constants.gravity_zero / (Constants.R_air * self.temperature_K) * (
                     self.altitude - Constants.altitude_junction))
         return density
-
-
 
     def compute_sound_speed(self):
         """
         Compute the speed of sound at a given temperature using the ideal gas law.
 
         Args:
-            temperature (float): Temperature in Kelvin.
 
         Returns:
             float: Speed of sound in meters per second.
         """
 
-        speed_of_sound = math.sqrt(Constants.gamma_air * Constants.R_air * self.temperature_K) # m/s
+        speed_of_sound = math.sqrt(Constants.gamma_air * Constants.R_air * self.temperature_K)  # m/s
 
         return speed_of_sound
+
+    def compute_air_viscosity(self):
+        """
+        Calculate dynamic viscosity of air using Sutherland's law.
+
+        Args:
+
+        Returns:
+            float: Dynamic viscosity of air in kg/(m*s).
+        """
+        # Constants
+        mu_0 = Constants.viscosity_zero # Reference viscosity at 273.15 K in kg/(m*s)
+        T_0 = Constants.temperature_zero  # Reference temperature in Kelvin
+        T = self.temperature_K
+
+        # Calculate viscosity using Sutherland's law
+        mu = mu_0 * (T / T_0) ** (3 / 2) * (T_0 + Constants.sutherlands_constant) / (T + Constants.sutherlands_constant)
+
+        return mu
 
     def compute_gravity(self):
         """
@@ -102,6 +120,4 @@ class Atmosphere:
         Returns:
             float: Gravity in m/s^2.
         """
-        G = Constants.gravity_zero  # gravitational acceleration in m/s^2
-        rayon_terre = Constants.earth_radius  # Earth radius in meters
-        return G * (rayon_terre / (rayon_terre + self.altitude)) ** 2
+        return Constants.gravity_zero * (Constants.earth_radius / (Constants.earth_radius + self.altitude)) ** 2

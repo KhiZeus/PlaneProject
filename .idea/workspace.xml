@@ -5,25 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90b27619-0f57-4048-8cee-dfe2b03eba31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/Example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/Plane/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/Plane/plane.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/Plane/plane_mass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/atmosphere/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/atmosphere/atmosphere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/constant/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/engine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/engine/engine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/fuselage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plane_Design_Package/wing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyPlanePackage/plane/ weight_to_surface_ratio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyPlanePackage/plane/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyPlanePackage/plane/plane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyPlanePackage/plane/plane_mass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atmosphere/atmosphere.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/engine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuselage/fuselage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plane_Design_Package/fuselage/fuselage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wing/wing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plane_Design_Package/wing/wing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/Example.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/Example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/Plane/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/Plane/plane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/Plane/plane_mass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/atmosphere/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/atmosphere/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/atmosphere/atmosphere.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/atmosphere/atmosphere.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/constant/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/constant/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/engine/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/engine/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/engine/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/engine/engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/fuselage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/fuselage/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/fuselage/fuselage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/fuselage/fuselage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/wing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/wing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plane_Design_Package/wing/wing.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlanePackage/wing/wing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -51,22 +55,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Example (1).executor": "Run",
-    "Python.Example.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.atmosphere.executor": "Run",
-    "Python.constants.executor": "Run",
-    "Python.engine.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.plane_mass.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/ETS/MGA802/Atmospheric_balloon-package/main.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python. weight_to_surface_ratio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Example (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.atmosphere.executor&quot;: &quot;Run&quot;,
+    &quot;Python.constants.executor&quot;: &quot;Run&quot;,
+    &quot;Python.engine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fuselage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plane_mass.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/ETS/MGA802/Atmospheric_balloon-package/main.py&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\MGA802\PlaneProject\Plane_Design_Package" />
@@ -76,7 +82,29 @@
       <recent name="C:\MGA802\PlaneProject\PlaneDesign\constant" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python. weight_to_surface_ratio">
+    <configuration name=" weight_to_surface_ratio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PlaneProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyPlanePackage/plane" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyPlanePackage/plane/ weight_to_surface_ratio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Example (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PlaneProject" />
       <option name="ENV_FILES" value="" />
@@ -145,6 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python. weight_to_surface_ratio" />
+        <item itemvalue="Python.Example" />
         <item itemvalue="Python.Example (1)" />
         <item itemvalue="Python.Example (1)" />
       </list>
@@ -172,7 +202,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Plane_Design_Package/Example.py</url>
+          <url>file://$PROJECT_DIR$/PyPlanePackage/Example.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

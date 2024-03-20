@@ -10,10 +10,13 @@ class Constants:
         density_zero = 1.2237  # kg/m3 - Density at sea level
         temperature_zero = 288.16  # K - temperature at sea level101325
         pressure_zero = 101325  # Pa - Pressure at sea level
+        viscosity_zero = 1.716e-5  # Reference viscosity at 273.15 K in kg/(m*s)
+        sutherlands_constant = 110.4  # Sutherland's constant in Kelvin
 
         # Altitude of troposphere and stratosphere junction
         altitude_junction = 11e3  # meter
         temperature_junction = 216.66
+
 
 
 
